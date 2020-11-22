@@ -1,0 +1,19 @@
+
+
+Web de Sarah Drasner
+Web de Sarah Drasner, desarrolladora frontend y divulgadora que escribe artículos y libros sobre temas como JavaScript o animaciones SVG.
+
+Web de Seb Lee
+Web de Seb Lee, artista digital de Reino Unido que practica lo que se llama "creative coding", es decir, la fusión de la programación con el arte.
+
+Web de Lea Verou
+Web de Lea Verou, divulgadora y desarrolladora frontend griega que es investigadora en el MIT, y lleva años realizando proyectos alrededor de CSS y JavaScript.
+
+Web de Remy Sharp
+Web de Remy Sharp, desarrollador frontend de Reino Unido especializado en JavaScript.
+
+Web de Jenn Schiffer
+Web de Jenn Schiffer, desarrolladora de web apps e ilustradora de pixel art que trabaja en Glitch.com, una comunidad de desarrollo de aplicaciones web.
+
+Web de Sacha Grief
+Web de Sacha Grief, diseñador y desarrollador nacido en París, que vive en Osaka y que escribe artículos y graba podcasts de desarrollo.

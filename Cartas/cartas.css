@@ -1,0 +1,102 @@
+.tarjeta {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 0.3em;
+  background-image: var (--gradient);
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  float: left;
+  box-shadow: 1px 1px 3px black;
+  margin: 0.5rem;
+}
+
+/**.tarjeta__contenido {
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+}**/
+
+/**configuracion domestika**/
+.tarjeta__contenido {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: rotateY(-180deg);
+  backface-visibility: hidden;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  padding-top: 0.4em;
+}
+
+.tarjeta__contenido::selection {
+  background: transparent;
+}
+
+.tarjeta.descubierta {
+  transform: rotateY(-180deg);
+}
+
+@keyframes error {
+  10%,
+  90% {
+    transform: rotateY(-180deg) translateX(-1px);
+  }
+
+  20%,
+  80% {
+    transform: rotateY(-180deg) translateX(2px);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: rotateY(-180deg) translateX(-4px);
+  }
+
+  40%,
+  60% {
+    transform: rotateY(-180deg) translateX (4px);
+  }
+}
+
+@keyframes acierto {
+  from {
+    transform: rotateY(-180deg) scale3d(1, 1, 1);
+    opacity: 1;
+  }
+
+  25% {
+    transform: rotateX(-180deg) scale3d(1.1, 1.1, 1.1);
+    opacity: 1;
+  }
+
+  to {
+    transform: rotateY(-180deg) scale3d(1, 1, 1);
+    opacity: 0;
+  }
+}
+
+.acertada {
+  pointer-events: none;
+}
+
+.acertada .tarjeta__contenido {
+  animation: acierto 1.3s ease-in-out forwards;
+}
+
+.error {
+  animation: error 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}

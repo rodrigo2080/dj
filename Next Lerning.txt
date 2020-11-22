@@ -1,0 +1,29 @@
+
+    Documentación de interés.
+
+    Librería jQuery
+    Librería de JavaScript jQuery.
+
+    Documentación jQAPI
+    Documentación alternativa para la librería jQuery.
+
+    Framework Angular JS
+    Angular JS, framework para web apps.
+
+    React JS
+    React JS, framework para web apps.
+
+    Vue JS
+    Vue JS, framework para web apps.
+
+    Phaser JS
+    Phaser JS, framework para juegos en JavaScript.
+
+    Mozilla Developer Network
+    Web de la MDN, con amplia documentación sobre diversas tecnologías web, incluyendo JavaScript.
+
+    JavaScript for Web Designers
+    Libro en inglés JavaScript for Web Designers, de A Book Apart.
+
+    JavaScript & jQuery
+    Libro en inglés JavaScript & jQuery, de Jon Duckett.
